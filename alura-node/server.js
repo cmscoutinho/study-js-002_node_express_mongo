@@ -5,7 +5,7 @@ const rotas = {
   "/": "Curso de Node.",
   "/livros": "Acessando pagina de livros.",
   "/autores": "Listagem de autores.",
-  editora: "Página da editora.",
+  "/editora": "Página da editora.",
 };
 
 const server = http.createServer((req, res) => {
