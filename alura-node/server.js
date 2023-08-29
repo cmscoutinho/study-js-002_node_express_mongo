@@ -6,6 +6,7 @@ const rotas = {
   "/livros": "Acessando pagina de livros.",
   "/autores": "Listagem de autores.",
   "/editora": "Página da editora.",
+  "/sobre": "Informacoes sobre a pagina.",
 };
 
 const server = http.createServer((req, res) => {
