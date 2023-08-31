@@ -9,6 +9,7 @@ const livros = [
   { id: 2, titulo: "O Hobbit" },
 ];
 
+// Métodos para recuperar recurso
 app.get("/", (req, res) => {
   res.status(200).send("Curso de Node.js");
 });
