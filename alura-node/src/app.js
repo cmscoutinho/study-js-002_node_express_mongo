@@ -1,6 +1,7 @@
 import express from "express";
 import db from "../config/dbConnect.js";
 
+// configura mensagem de erro caso a conexão não seja realizada
 db.on("error", console.log.bind(console, "Erro de conexão"));
 db.once("open", () => {
   console.log("Conexão realizada com sucesso");
